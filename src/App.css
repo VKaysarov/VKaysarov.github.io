@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+.daysWeek {
+	display: flex;
+	justify-content: space-between;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.daysWeek > div > div {
+	margin-top: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.young {
+  width: 50px;
+  background-color: #3399ff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.adult {
+  width: 50px;
+  background-color: #3366cc;
 }
 
-.App-link {
-  color: #61dafb;
+.old {
+  width: 50px;
+  background-color: #dc3912;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.kid {
+	width: 50px;
+	background-color: #109618;
+}
+
+.undefine {
+	width: 50px;
+	background-color: #999999;
+}
+
+.captionAge {
+	display: flex;
+}
+
+.captionAge > div {
+	display: flex;
+	margin: 10px;
+}
+
+.captionAge > div > div {
+	height: 20px;
+	margin-right: 5px;
 }
